@@ -1,6 +1,6 @@
 
 *{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS',  sans-serif, 'Gill Sans MT','Gill Sans', Calibri, 'Trebuchet MS',;
   }
   
   
@@ -13,14 +13,14 @@
   }
   
   .btn1{
-      padding: 1.4vh 3vw;
+      padding: 1.5vh 4vw;
       border: 0.5px solid white;
-      border-radius: 17px;
+      border-radius: 15px;
       font-size: 1.4vw;
       letter-spacing: 3px;
-      font-weight: 600;
-      background: linear-gradient(to left,rgb(149, 220, 240),rgb(242, 152, 238));
-      box-shadow: 20px 20px 60px rgb(243, 188, 237);
+      font-weight: 580;
+      background: linear-gradient(to left,rgb(99, 223, 105),rgb(223, 89, 129));
+      box-shadow: 22px 21px 58px rgb(211, 162, 205);
   }
   
   .btn2{
