@@ -1,0 +1,8 @@
+.yellow-btn{
+    background-color: rgba(201, 224, 24, 0.55);
+    height: 30px;
+    width: 150px;
+    border: 0.1px solid black;
+    font-size: 2vw;
+    border-radius: 7px;
+}
