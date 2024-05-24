@@ -1,0 +1,22 @@
+.card {
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.card-content {
+    padding: 15px;
+}
+.card-content h3 {
+    margin-top: 0;
+}
+.card-content p {
+    margin-bottom: 0;
+}
