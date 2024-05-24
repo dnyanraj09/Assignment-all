@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: static;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .content {
+            padding: 20px;
+            margin-top: 50px;
+            position: relative;
+        }
+        .sidebar {
+            background-color: #f1f1f1;
+            padding: 20px;
+            width: 20%;
+            float: left;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+        }
+        .main-content {
+            margin-left: 25%;
+            padding: 20px;
+            position: relative;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Cafe</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="content">
+        <div class="sidebar">
+            <h2>Our Specials</h2>
+            <p>Today's special: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Check out our menu for more delicious options!</p>
+        </div>
+        <div class="main-content">
+            <h2>About Our Cafe</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec gravida ligula nec eros interdum, sit amet fermentum justo hendrerit.</p>
+            <p>Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean consectetur enim nec arcu bibendum vehicula. Fusce et congue sem.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Cafe Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
