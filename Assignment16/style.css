@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+nav{
+    height: 10vh;
+    width: 80%;
+    background-color:rgb(91, 90, 90);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 3vh;
+    color: white;
+    border-radius: 25px;
+    padding: 0 4vw;
+    z-index: 11;
+    justify-content: center;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+
+nav ul li{
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 200;
+    cursor: pointer;
+    
+}
+
+#logo{
+    height: 10vh;
+    background-color: white;
+    border-radius: 50%;
+    object-fit:contain;
+}
+
+#cofee-div{
+    height: 80vh;
+    width: 28vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(-50%,-40%);
+}
+
+#cofee-div h4{
+    font-size: 3.2vw;
+    text-align: center;
+    line-height: 1;
+    text-transform: uppercase;
+    color: rgb(232, 191, 138);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cofee-div img{
+    position: sticky;
+    height: 80%;
+    filter: drop-shadow(10px 10px 60px gray);
+}
+
+#cover{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+#cover img{
+    height: 90%;
+    width: 100%;
+    object-fit: fill;
+}
+
+#time{
+    height: 10vh;
+    width: 20vw;
+    position: fixed;
+    bottom: 5%;
+    left: 20%;
+    text-transform: uppercase;
+}
+
+#time h3{
+   font-size: 1.8vw;
+   font-weight: 900;
+}
+
+#time h5{
+    font-size: 1.2vw;
+    color: gray;
+}
+
+
+#book{
+    height: 10vh;
+    width: 20vw;
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
+    text-transform: uppercase;
+}
+
+#book h3{
+   font-size: 1.8vw;
+   font-weight: 900;
+}
+
+#book h5{
+    font-size: 1.2vw;
+    color: gray;
+}
