@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#container{
+    height: 100%;
+    width: 90%;
+    padding: 0 4vw;
+    background-color: rgb(253, 255, 255);
+}
+
+#header{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header #left{
+    height: 100%;
+    width: 10vw;
+}
+
+#left img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+#header #right{
+    font-size: 4vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#user-info{
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3{
+    font-size: 2vw;
+}
+
+h4{
+    font-size: 1.5vw;
+    color: rgb(96, 93, 93);
+}
+
+#products{
+    height: 30%;
+    margin-top: 2vh;
+    border-top: 3px solid tomato;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headers{
+    padding: 1vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.headers span{
+    display: inline-block;
+    width: 20%;
+
+}
+
+.border{
+    border: 0.5px solid black;
+}
+
+
+#sign-amount{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sign{
+    height: 8vh;
+    width: 10vw;
+}
+
+#sign img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#total{
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.amount{
+    display: flex;
+    align-items: center;
+    margin-top: 3vh;
+    justify-content: space-between;
+    font-size: 2vw;
+}
+
+#pay{
+    margin-top: 3vh;
+    height: 10vh;
+    width: 100%;
+    background-color:tomato;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+@media  screen and (max-width:490px) {
+    
+h3{
+    font-size: 4vw;
+}
+
+h4{
+    font-size: 3vw;
+}
+
+
+.headers{
+    font-size: 3vw;
+}
+
+
+
+#sign{
+    height: 15vh;
+    width: 20vw;
+}
+
+#sign img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#total{
+    width: 40vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.amount{
+    
+    font-size: 3vw;
+}
+
+#pay{
+    margin-top: 3vh;
+    height: 5vh;
+    width: 100%;
+    background-color:tomato;
+    font-size: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+}
+
+
+@media screen and (min-width: 490px) and (max-width: 768px){
+
+    
+    h3{
+        font-size: 3vw;
+    }
+    
+    h4{
+        font-size: 2.2vw;
+    }
+    
+    
+    .headers{
+        font-size: 2.2vw;
+    }
+    
+
+
+}
+
+
+@media screen and (min-width:769px) and (max-width: 992px) {
+        
+
+#sign{
+    height: 15vh;
+    width: 20vw;
+}
+
+
+}
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+ 
+    #sign{
+        height: 10vh;
+        width: 20vw;
+    }
+    
+
+
+}

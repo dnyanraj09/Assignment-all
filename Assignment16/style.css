@@ -44,13 +44,6 @@ nav ul li{
     
 }
 
-#logo{
-    height: 10vh;
-    background-color: white;
-    border-radius: 50%;
-    object-fit:contain;
-}
-
 #cofee-div{
     height: 80vh;
     width: 28vw;

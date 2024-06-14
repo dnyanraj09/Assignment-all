@@ -8,7 +8,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-start;
+    /*align-items: flex-start;*/
+    align-items: center;
     padding: 20px;
 }
 
@@ -22,13 +23,13 @@ body{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
 .movie-card img {
     width: 100%;
     border-radius: 25px;
     margin-bottom: 15px;
     border-bottom: 1px solid #ccc;
 }
+
 
 .movie-card h2 {
     font-size: 1.5em;
@@ -50,10 +51,18 @@ body{
 }
 
 .rating {
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
 }
+
 
 .star {
     color: gold;
     font-size: 1.2em;
+}
+
+p {
+    margin: 5px 0;
+    text-align: center;
 }
