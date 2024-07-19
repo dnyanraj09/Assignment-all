@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if-else</title>
+</head>
+
+<body>
+    <script>
+
+        let totalAmount = parseInt(prompt("Enter Your Total Amount: "));
+
+        let discountAmount = 0;
+        let finalAmount = totalAmount;
+
+        if (totalAmount >= 2000) {
+            discountAmount = totalAmount / 10;
+            document.write("<br>")
+            finalAmount = totalAmount - discountAmount;
+            console.log(`Your bill is ${totalAmount} ! you get 10% off now your bill is ${finalAmount}`)
+
+        } else if (totalAmount < 2000 && totalAmount >= 500) {
+
+            discountAmount = totalAmount / 5;
+            finalAmount = totalAmount - discountAmount;
+            console.log(`Your bill is ${totalAmount} ! you get 5% off now your bill is ${finalAmount}`)
+
+        } else {
+
+            console.log(`Please pay ${finalAmount}`)
+        }
+
+
+
+    </script>
+</body>
+
+</html>
