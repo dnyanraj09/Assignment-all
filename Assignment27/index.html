@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment27</title>
+    <style>
+         body{ 
+            height: 300vh;
+            background-color: black;
+            align-items: center;
+            flex-direction: column;
+            justify-content:center;
+            gap: 4vh;
+            display: flex;
+         }
+
+         div{
+            height: 50vh;
+            width: 40vw;
+            border-radius: 25px;
+            background-color: rgb(158, 248, 248);
+         }
+
+         button{
+            height: 8vh;
+            width: 20vh;
+            border-radius: 20px;
+            border-color: aliceblue;
+            background-color: rgb(212, 248, 255);
+         }
+    </style>
+</head>
+<body onload="contendLoad()">
+       <button onclick="clickBtn()">click me</button> 
+       <button ondblclick="dblClickBtn()">click me</button>
+       
+        <div onmouseover="mOver()" onmousemove="mMove()"></div>
+        
+
+      <script>
+          function clickBtn(){
+            document.write("you Click the button")
+          }
+
+          function mLeave(){
+             alert("you leave the mouse on the div")
+          }
+           
+          function mMove(){
+             alert("you move the mouse on a div")
+          }
+
+          function dblClickBtn(){
+             document.write("you double click the button")
+          }
+
+          function mOver(){
+            alert("you over the mouse on div")
+          }
+   
+          function contendLoad(){
+             console.log("all body content load succesfully...")
+          }
+           
+           
+      </script>
+</body>
+</html>
